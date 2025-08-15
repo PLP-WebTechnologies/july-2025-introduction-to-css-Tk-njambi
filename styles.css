@@ -1,0 +1,129 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #1f1f1f, #333333);
+    color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #a0a0a0;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+/* Sections */
+section {
+    background-color: #1e1e1e;
+    padding: 25px 20px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border: 1px solid #333333;
+}
+
+/* Section Headings */
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #4caf50;
+}
+
+/* Paragraphs */
+section p {
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #2a2a2a; /* makes paragraphs like skills stand out */
+    line-height: 1.6;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+section p:hover {
+    transform: translateY(-2px);
+    background-color: #3a3a3a; /* subtle hover effect */
+}
+
+/* Lists */
+ul {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #2a2a2a;
+    border-radius: 6px;
+    border: 1px solid #333;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    background-color: #3a3a3a;
+}
+
+/* Links */
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f1f1f;
+    color: #a0a0a0;
+    border-radius: 12px;
+    margin-top: 20px;
+}
